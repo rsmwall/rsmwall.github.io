@@ -1,0 +1,128 @@
+body{
+    background-color: #0f1819;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin-bottom: 90px;
+  }
+  
+  #title{
+    padding: 10px 30px;
+  }
+  
+  #nav-items{
+    font-size: 14px;
+    padding: 10px 30px;
+    list-style-type: none;
+  }
+  
+  #nav-items li{
+    display: inline;
+    margin-left: 30px;
+  }
+  
+  li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  li a:hover{
+    color: #50c683;
+  }
+  
+  #selected{
+    color: #50c683;
+    font-weight: bold;
+  }
+  
+  #content{
+    padding: 60px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  #content-text{
+    max-width: 450px;
+  }
+  
+  #content-text h1{
+    color: #50c683;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  #content-text p{
+    font-size: 15px;
+  }
+  
+  #content-circles{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 57%;
+    transform: translateY(-50%);
+    right: 0;
+    bottom: 0;
+    margin-right: 50px;
+  }
+  
+  #circles{
+    padding: 10px 350px;
+    list-style-type: none;
+  }
+  
+  #circle1, #circle2{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #50c683;
+    position: absolute;
+  }
+  
+  #circle1{
+    background-color: rgba(32, 227, 101, 0.56)
+  }
+  
+  #circle2{
+    margin-bottom: 0;
+    z-index: -1;
+    background-color: #50c683;
+    right: 150px;
+  }
+  
+  footer{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    padding: 20px 0;
+  }
+  
+  #social-icons{
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  #social-icons li{
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  #social-icons li a{
+    font-size: 24px;
+  }
