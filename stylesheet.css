@@ -22,6 +22,10 @@ body{
   #title{
     padding: 10px 30px;
   }
+
+  #menu-icon{
+    display: none;
+  }
   
   #nav-items{
     font-size: 14px;
@@ -125,4 +129,24 @@ body{
   
   #social-icons li a{
     font-size: 24px;
+  }
+
+  @media (max-width: 1150px) {
+    #circle1, #circle2 {
+        display: none;
+    }
+
+    #nav-items{
+        display: none;
+    }
+
+    #menu-icon{
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    body{
+        padding: 10px;
+    }
   }
